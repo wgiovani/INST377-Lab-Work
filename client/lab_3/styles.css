@@ -68,3 +68,11 @@
     width: 300px;
     height: 300px;
   }
+
+  .first_item {
+    order: 5;
+  }
+  
+  .last_item {
+      order: 1;
+  }
