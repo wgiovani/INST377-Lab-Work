@@ -16,14 +16,13 @@ p {
     display:flex;
     flex-direction: column;
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-    margin:10px;
 }
 
 .menu {
     display:flex;
     justify-content: center;
     background-color:royalblue;
-    height: 20%;
+    align-items: stretch;
 }
 
 .menubox {
