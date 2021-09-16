@@ -70,9 +70,9 @@
   }
 
   .first_item {
-    order: 5;
+    order: 4;
   }
   
   .last_item {
-      order: 1;
+      order: -3;
   }
