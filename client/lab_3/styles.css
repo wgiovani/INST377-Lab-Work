@@ -5,7 +5,7 @@
   }
 
   .title{
-    display: inline-block;
+    display: flex;
     background-color: rgba(0,139, 139,0.8);
     font-family: ‘Segoe UI’;
   }
