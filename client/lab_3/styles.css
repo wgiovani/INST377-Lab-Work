@@ -7,7 +7,7 @@
   .title-container{
     display: flex;
     background-color: rgba(0,139, 139,0.8);
-    height: 50px;
+    height: 60px;
     align-items: center;
   }
 
