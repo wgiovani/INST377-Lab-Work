@@ -7,7 +7,7 @@
   .title-container{
     display: flex;
     background-color: rgba(0,139, 139,0.8);
-    padding:10 px;
+    height: 10px;
   }
 
   .title{
