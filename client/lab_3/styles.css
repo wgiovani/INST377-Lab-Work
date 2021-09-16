@@ -1,48 +1,44 @@
 * {
-    box-sizing: border-box;
-}
-
-p {
-    padding: 5px;
     margin: 0;
-}
-
-.title {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
     display: flex;
-    background-color: rgba(0,139, 139,0.8);
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-    height: auto;
-}
-
-.menu {
-    display:flex;
     justify-content: center;
-    background-color:royalblue;
-    height: 50%;
-}
-
-.menubox {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+  }
+  
+  .menu {
+    border: 1px solid #fff;
+    width: 900px;
     display: flex;
     justify-content: space-between;
-    border-color: white;
-}
+  }
 
-.links {
+  .links {
+    border: 1px solid #fff;  /* For debugging */
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: flex-end;
+  }
+  
+  .main_page {
+    margin-left: 20px;
+  }
 
-.welcome {
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
     display: flex;
     justify-content: center;
-    background-color:lightblue;
-}
-
-.welcome p{
-    color: royalblue;
-}
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
