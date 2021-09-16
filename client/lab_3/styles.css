@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-.subscribe,
-.social {
+  .subscribe,
+  .social {
     align-items: flex-end;
 }
