@@ -71,11 +71,11 @@
     order: 0;
   }
 
-  .photo-grid-item .first_item {
+  .first_item {
     order: 1;
   }
   
-  .photo-grid-item .last_item {
+  .last_item {
     order: -1;
   }
 
@@ -90,3 +90,10 @@
     height: 200px;
     flex: 1;
   }
+
+  .footer-one,
+  .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
