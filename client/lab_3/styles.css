@@ -1,9 +1,15 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  .title{
+    display: inline-block;
+    background-color: rgba(0,139, 139,0.8);
+    font-family: ‘Segoe UI’;
+  }
+
   .menu-container {
     display: flex;
     justify-content: center;
@@ -42,15 +48,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
   .group_project,
   .git_link {
     align-self: flex-end;
     margin-bottom: 20px;
-}
+  }
 
-.photo-grid-container {
+  .photo-grid-container {
     display: flex;
     justify-content: center;
   }
@@ -96,4 +102,4 @@
     background-color: #5995DA;
     flex: initial;
     width: 300px;
-}
+  }
