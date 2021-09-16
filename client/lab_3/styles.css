@@ -47,6 +47,7 @@
   .subscribe,
   .social {
     align-self: flex-end;
+    margin-bottom: 20px;
 }
 
 .photo-grid-container {
@@ -76,4 +77,16 @@
   
   .photo-grid-item .last_item {
     order: -1;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
   }
