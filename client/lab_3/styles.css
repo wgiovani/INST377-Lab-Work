@@ -44,8 +44,8 @@
     align-items: center;
 }
 
-  .subscribe,
-  .social {
+  .group_project,
+  .git_link {
     align-self: flex-end;
     margin-bottom: 20px;
 }
