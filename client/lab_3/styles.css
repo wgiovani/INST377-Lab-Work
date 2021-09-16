@@ -82,11 +82,11 @@
     order: 0;
   }
 
-  .first_item {
+  .photo-grid-item.first_item {
     order: 1;
   }
   
-  .last_item {
+  .photo-grid-item.last_item {
     order: -1;
   }
 
