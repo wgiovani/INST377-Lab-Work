@@ -10,10 +10,6 @@ p {
 .title {
     display: flex;
     background-color: rgba(0,139, 139,0.8);
-    border-radius: 4px;
-    padding: 10px 15px;
-    margin: 0;
-    margin-bottom: 5px;
 }
 
 .wrapper {
@@ -27,6 +23,7 @@ p {
     display:flex;
     justify-content: center;
     background-color:royalblue;
+    height: 20%;
 }
 
 .menubox {
