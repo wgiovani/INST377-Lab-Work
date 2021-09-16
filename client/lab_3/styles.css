@@ -4,11 +4,14 @@
     box-sizing: border-box;
   }
 
-  .title{
+  .title-container{
     display: flex;
     background-color: rgba(0,139, 139,0.8);
-    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
     padding:10 px;
+  }
+
+  .title{
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   }
 
   .menu-container {
