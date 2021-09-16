@@ -69,10 +69,10 @@
     height: 300px;
   }
 
-  .first_item {
+  .photo-grid-item first_item {
     order: 4;
   }
   
-  .last_item {
+  .photo-grid-item last_item {
       order: -3;
   }
