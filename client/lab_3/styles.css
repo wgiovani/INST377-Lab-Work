@@ -59,7 +59,7 @@
     align-items: center;
   }
 
-  header a:link, header a:visited {
+  .header a:link, header a:visited {
     color: royalblue;
     text-decoration: none;
   }
