@@ -32,11 +32,11 @@
     border: 1px solid #fff;  /* For debugging */
     display: flex;
     justify-content: space-around;
-    color: white;
   }
 
   .links a:link, a:visited {
     color: white;
+    text-decoration: none;
   }
   
   .main_page {
@@ -61,6 +61,7 @@
 
   header a:link, header a:visited {
     color: royalblue;
+    text-decoration: none;
   }
 
   .group_project,
