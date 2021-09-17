@@ -34,6 +34,10 @@
     justify-content: space-around;
     color: white;
   }
+
+  .links a:link, a:visited {
+    color: white;
+  }
   
   .main_page {
     margin-left: 20px;
@@ -55,11 +59,14 @@
     align-items: center;
   }
 
+  header a:link, header a:visited {
+    color: royalblue;
+  }
+
   .group_project,
   .git_link {
     align-self: flex-end;
     margin-bottom: 20px;
-    color: royalblue;
   }
 
   .photo-grid-container {
