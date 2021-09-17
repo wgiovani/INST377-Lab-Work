@@ -32,6 +32,7 @@
     border: 1px solid #fff;  /* For debugging */
     display: flex;
     justify-content: space-around;
+    color: white;
   }
   
   .main_page {
@@ -58,6 +59,7 @@
   .git_link {
     align-self: flex-end;
     margin-bottom: 20px;
+    color: royalblue;
   }
 
   .photo-grid-container {
