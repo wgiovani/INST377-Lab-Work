@@ -91,11 +91,11 @@
     order: 0;
   }
 
-  .photo-grid-item.first_item {
+  .photo-grid-item.first-item {
     order: 1;
   }
   
-  .photo-grid-item.last_item {
+  .photo-grid-item.last-item {
     order: -1;
   }
 
