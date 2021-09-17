@@ -34,7 +34,7 @@
     justify-content: flex-end;
   }
 
-  .links a:link, a:visited {
+  .links a:link, .links a:visited {
     color: white;
     text-decoration: none;
   }
@@ -59,7 +59,7 @@
     align-items: center;
   }
 
-  .header a:link, header a:visited {
+  .header a:link, .header a:visited {
     color: royalblue;
     text-decoration: none;
   }
