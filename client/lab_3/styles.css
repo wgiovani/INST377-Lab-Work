@@ -56,7 +56,7 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
   }
 
   .header a:link, .header a:visited {
