@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded' , () => {
     }
     document.addEventListener('keyup', control)
 
-
+    function generateObstacle() {
+        const obstacle = document.createElement('div')
+        obstacle.classList.add('obstacle')
+    }
 
 })
