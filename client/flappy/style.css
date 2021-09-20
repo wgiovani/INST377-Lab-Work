@@ -18,3 +18,10 @@
     position: absolute;
     top: 580px;
 }
+
+.bird {
+    background-color: yellow;
+    position: absolute;
+    width: 60px;
+    height: 45px;
+}
