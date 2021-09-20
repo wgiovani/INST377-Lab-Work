@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         bird.style.bottom = birdBottom + 'px'
         bird.style.left = birdLeft + 'px'
     }
-    let timerId = setInterval(startGame, 20)
+    let timerId = setInterval(startGame(), 20)
 
     function control(e) {
         if (e.keyCode === 32) {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         if (birdBottom < 500) birdBottom += 50
         bird.style.bottom = birdBottom + 'px'
     }
-    document.addEventListener('keyup', control)
+    document.addEventListener('keyup', control())
 
 
 
