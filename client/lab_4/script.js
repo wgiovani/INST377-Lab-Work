@@ -3,13 +3,13 @@ const slides = document.getElementsByClassName('carousel_item');
 const totalSlides = slides.length;
 
 document.
-    getElementById('carousel_button--next')
+    getElementById('button.carousel_button--next')
     .addEventListener("click", function() {
         moveToNextSlide();
     })
 
 document.
-    getElementById('carousel_button--prev')
+    getElementById('button.carousel_button--prev')
     .addEventListener("click", function() {
         moveToPrevSlide();
     })
