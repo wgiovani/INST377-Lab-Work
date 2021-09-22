@@ -24,6 +24,7 @@ function updateSlidePosition() {
 }
 
 function moveToNextSlide(){
+    console.log("hello next")
     if (slidePosition === totalSlides - 1){
         slidePosition = 0;
     } else {
@@ -34,6 +35,7 @@ function moveToNextSlide(){
 }
 
 function moveToPrevSlide(){
+    console.log("Hello prev")
     if(slidePosition === 0){
         slidePosition= totalSlides - 1;
     } else {
