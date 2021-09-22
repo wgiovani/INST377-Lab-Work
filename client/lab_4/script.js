@@ -9,7 +9,7 @@ document.
     })
 
 document.
-    getElementById('carousel_button--previous')
+    getElementById('carousel_button--prev')
     .addEventListener("click", function() {
         moveToPrevSlide();
     })
