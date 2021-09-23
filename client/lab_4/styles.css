@@ -164,8 +164,7 @@
     margin-right: 20px;
   }
 
-  .carousel .carousel_actions button#carousel_button--prev:focus,
-  .carousel .carousel_actions button#carousel_button--next:focus {
+  button:focus {
     background-color: orange;
   }
 
