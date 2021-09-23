@@ -153,16 +153,18 @@
       cursor: pointer;
       width: 40px;
       height: 40px;
-      background-color: white;
-      border-color: white;
   }
 
   .carousel .carousel_actions button#carousel_button--prev {
     margin-left: 20px;
+    background-color: white;
+    border-color: white;
   }
 
   .carousel .carousel_actions button#carousel_button--next {
     margin-right: 20px;
+    background-color: white;
+    border-color: white;
   }
 
   button:focus {
