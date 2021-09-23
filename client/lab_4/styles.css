@@ -154,6 +154,7 @@
       width: 40px;
       height: 40px;
       background-color: white;
+      border-color: white;
   }
 
   .carousel .carousel_actions button#carousel_button--prev {
