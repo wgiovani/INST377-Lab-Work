@@ -167,5 +167,6 @@
 
   button:focus {
     background-color: orange;
+    border-color: blue;
   }
 
