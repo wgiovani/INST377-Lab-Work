@@ -148,7 +148,7 @@
   }
 
   .carousel .carousel_actions button {
-      border: none;
+      border: 0;
       cursor: pointer;
       width: 40px;
       height: 40px;
@@ -163,6 +163,7 @@
   }
 
   button {
+    border-color: lightgray;
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
     font-weight: bold;
   }
