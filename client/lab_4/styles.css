@@ -153,6 +153,11 @@
       cursor: pointer;
       width: 40px;
       height: 40px;
+      background-color: white;
+  }
+
+  .carousel .carousel_actions button:focus {
+      background-color: orange;
   }
 
   .carousel .carousel_actions button#carousel_button--prev {
