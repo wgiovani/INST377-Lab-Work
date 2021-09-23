@@ -166,6 +166,7 @@
   button {
     background-color: lightgray;
     border-color: white;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   }
 
   button:focus {
