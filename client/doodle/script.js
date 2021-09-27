@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     (doodlerLeftSpace <= (platform.left + 85)) &&
                     !isJumping
                 ) {
-                     jump
+                     jump()
                 }
             })
         }, 30)
