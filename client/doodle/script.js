@@ -65,7 +65,17 @@ document.addEventListener('DOMContentLoaded', () => {
         downTimerId = setInterval(function () {
             doodlerBottomSpace -= 5
             doodler.style.bottom = doodlerBottomSpace + 'px'
+            if (doodlerBottomSpace <= 0){
+                gameOver()
+            }
+
         }, 30)
+    }
+
+    function gameOver() {
+        isGameOver = true
+        clearInterval(upTimerId)
+        clearInterval(downTimerId)
     }
 
     function start () {
