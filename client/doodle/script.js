@@ -44,7 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function movePlatforms() {
         if (doodlerBottomSpace > 200) {
             platforms.forEach(platform => {
+                console.log(platform.bottom)
                 platform.bottom -= 4
+                console.log(platform.bottom)
                 let visual = platform.visual
                 visual.style.bottom = platform.bottom + 'px'
             })
@@ -105,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isGameOver) {
             createPlatforms()
             createDoodler()
-            setInterval(movePlatforms(),30)
+            setInterval(movePlatforms,30)
             jump()
         }
     }
