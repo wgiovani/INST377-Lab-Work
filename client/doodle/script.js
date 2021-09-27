@@ -103,8 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function control() {
         if (e.key === "ArrowLeft") {
+            console.log("left")
             moveLeft()
         }else if (e.key === "ArrowRight") {
+            console.log("right")
             moveRight()
         }else if (e.key === "ArrowUp") {
 
