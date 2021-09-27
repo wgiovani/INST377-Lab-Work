@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function fall() {
         clearInterval(upTimerId)
+        isJumping = false
         downTimerId = setInterval(function () {
             doodlerBottomSpace -= 5
             doodler.style.bottom = doodlerBottomSpace + 'px'
@@ -81,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     (doodlerLeftSpace <= (platform.left + 85)) &&
                     !isJumping
                 ) {
-                     jump()
+                     jump
                 }
             })
         }, 30)
