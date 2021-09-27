@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clearInterval(downTimerId)
     }
 
-    function control() {
+    function control(e) {
         if (e.key === "ArrowLeft") {
             console.log("left")
             moveLeft()
