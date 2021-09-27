@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isGoingLeft = false
         }
         isGoingRight = true
-        leftTimerId = setInterval(function () {
+        rightTimerId = setInterval(function () {
             if (doodlerLeftSpace <= 340) {
                 doodlerLeftSpace +=5
                 doodler.style.left = doodlerLeftSpace + 'px'
