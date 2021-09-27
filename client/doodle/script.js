@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (
                     (doodlerBottomSpace >= platform.bottom) &&
                     (doodlerBottomSpace <= platform.bottom + 15) &&
-                    ((doodlerLeftSpace + 65) >= platform.left) &&
+                    ((doodlerLeftSpace + 75) >= platform.left) &&
                     (doodlerLeftSpace <= (platform.left + 85)) &&
                     !isJumping
                 ) {
