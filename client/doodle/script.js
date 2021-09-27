@@ -55,6 +55,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(platform.bottom)
                 let visual = platform.visual
                 visual.style.bottom = platform.bottom + 'px'
+
+                if(platform.bottom < 10) {
+                    let firstPlatform = platforms[0].visual
+                    firstPlatform.classList.remove('platform')
+                    platforms.shift()
+                    let newPlatform = new Platform(600)
+                    platforms.push(newPlatform)
+                }
             })
         }
     }
@@ -109,7 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("right")
             moveRight()
         }else if (e.key === "ArrowUp") {
-
+            console.log("straight")
+            moveStraight()
         }
     }
 
@@ -141,6 +150,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }else moveLeft()
 
         }, 30)
+    }
+
+    function moveStraight() {
+        clearInterval(rightTimerId)
+        clearInterval(leftTimerId)
+        isGoingRight=false
+        isGoingLeft=false
     }
 
     function start () {
