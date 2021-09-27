@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         downTimerId = setInterval(function () {
             doodlerBottomSpace -= 5
             doodler.style.bottom = doodlerBottomSpace + 'px'
-        })
+        },30)
     }
 
     function start () {
