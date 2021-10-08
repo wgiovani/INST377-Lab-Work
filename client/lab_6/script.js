@@ -9,7 +9,7 @@ async function windowActions() {
     return eateries.filter(place => {
     // Does a check for the matching
     const regex = new RegExp(wordToMatch, 'gi');
-    return place.name.match(regex) || place.city.match(regex)
+    return place.name.match(regex) || place.category.match(regex)
     })
   }
 
