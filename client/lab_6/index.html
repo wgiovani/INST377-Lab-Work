@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>William Giovanini Lab 6</title>
+        <script src="script.js" charset="utf-8"></script>
+        <link rel='stylesheet' href='styles.css'/>
+    </head>
     <body>
-        <script>
-            const endpoint = 'https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json'
-        
-            let eateries = [];
-        
-            fetch(endpoint)
-                .then(blob => blob.json())
-                .then(data => eateries = data)
-        
-            function findMatches(wordToMatch, eateries){
-                return eateries.filter(place => {
-                    // Does a check for the matching
-                    const regex = new RegExp(wordToMatch, 'gi');
-                    return place.name.match(regex) || place.city.match(regex) || place.state.match(regex)
-                    
-                })
-            }
-        </script>
+        <form>
+            <wrapper>
+                <h1>Lab 6: Typeahead Entries William Giovanini</h1>
+                <input class ="eatery-search" type="text">
+                <p class="suggestions"></p>
+            </wrapper>
+        </form>
     </body>
 </html>
 
