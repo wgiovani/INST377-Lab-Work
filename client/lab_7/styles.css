@@ -1,0 +1,26 @@
+#mapid {
+     height: 400px;
+}
+
+li {
+    display: block;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.eatery-search {
+    width: 100%;
+}
+
+.resto-name{
+    display: block;
+    background-color: green;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
