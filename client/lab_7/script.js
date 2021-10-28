@@ -30,7 +30,6 @@ async function windowActions() {
   function displayMatches(event) {
     const matchArray = findMatches(event.target.value, eateries)
     const limit = 5;
-    console.log(event.target.value)
     if (matchArray.length === 0 || event.target.value === '') {
       suggestions.innerHTML = ''
       markerList.forEach((mark) => {
@@ -48,7 +47,6 @@ async function windowActions() {
       firstCoords = matchArray[0].geocoded_column_1.coordinates.reverse()
     }
     
-    console.log(firstCoords)
     mymap.setView(firstCoords, 10)
     //Creation
     matchArray.slice(0,limit).forEach((location) => {
@@ -57,8 +55,6 @@ async function windowActions() {
       } else {
         coords = location.geocoded_column_1.coordinates
       }
-      
-      console.log(coords)
       markerList.push(L.marker(coords).addTo(mymap));
     });
     const html = matchArray.slice(0, limit).map(place => {
